@@ -1,0 +1,31 @@
+<ion-content slot="fixed">
+<br>
+  <img src="../../../assets/logo.png" alt="logo" class="navbarLogo">
+  <br><br><br>
+
+
+<div class="center">
+  <ion-grid>
+    <ion-row >
+      <ion-col size="12">
+        <ion-textarea  row="1" readonly="true" > 
+          <ion-input type="text" placeholder="Usuario" ></ion-input>
+        </ion-textarea>
+      </ion-col>
+      <ion-col size="12">
+        <ion-textarea  row="1" readonly ="true"> 
+          <ion-input style="--color: #000000;" type="password" placeholder="Contraseña"></ion-input>
+        </ion-textarea>
+      </ion-col>
+    
+      <br><br><br><br><br>
+      <ion-col size="12" >
+        <ion-button mode="ios" class="btnlogin" (click)="login()">Ingresar </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+ </div>
+
+</ion-content>
+
+ 
