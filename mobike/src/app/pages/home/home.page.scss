@@ -1,18 +1,4 @@
-.footer{
-    ion-icon{
-        color: #FFFFFF;
-        zoom: 2.2;
-    }
-    ion-row{
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-     
-    }
-    ion-col{
-      padding-left: 25px;
-    }
-  }
+
 
   h2{
       font-size: 25px;
@@ -33,6 +19,8 @@
   
 
 .parking{
+  overflow-y: auto;
+  height: 320px;
     ion-card{
         width: 80%;
         margin-left: 10%;
@@ -49,12 +37,26 @@
         margin-left: 6%;
 
     }
+  }
+.logout{
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+
+  ion-button{
+    --background: #8e4c46;
+    --background-activated:#7e322b;
+    --color:#FFFFFF;
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    --border-radius:70px 70px 70px 70px;
+  }
 }
   
-  
-  
-  
-  
+
   .center{
    text-align: center;
    margin-top: 20%;
@@ -90,6 +92,9 @@
             --border-radius:70px 70px 70px 70px;
         }
   }   
+
+
+  
 
   
   
